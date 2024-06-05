@@ -5,7 +5,7 @@ setup(
     packages=['competitive_rl', 'competitive_rl.pong', 'competitive_rl.car_racing', 'competitive_rl.utils'],
     install_requires=[
         "gym",
-        "pygame==1.9.6",
+        "pygame",
         "opencv-python",
         "numpy",
         "pandas",
